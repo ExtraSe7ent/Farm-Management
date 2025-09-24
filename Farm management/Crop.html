@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title>Quản lý trang trại </title>
+    <link rel="icon" type="image/x-icon" href="https://img.pikbest.com/png-images/qiantu/agriculture-icon-picture_2680086.png!f305cw">
+<body>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <h1 style="text-align: center;">Crop Information</h1>
+        <form id="farm-form" style="text-align: center;">
+            <label for="totalCrop">Total Crop:</label><br>
+            <input type="number" id="totalCrop" required><br>
+            <button type="button" onclick="inputCrop()">Add Crop</button>
+            <button type="button" onclick="saveData()">Save</button>
+        </form>
+        <div id="crop-details"></div>
+    </div>
+    
+    <script src="crop.js"></script>
+    <br>
+    <div style="text-align: center;">
+        <a href="trangchu.html" target="_blank"><button>Return</button></a>
+        </div>
+</body>
+</html>

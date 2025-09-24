@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title>Quản lý trang trại </title>
+    <link rel="icon" type="image/x-icon" href="https://img.pikbest.com/png-images/qiantu/agriculture-icon-picture_2680086.png!f305cw">
+<body>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <h1 style="text-align: center;">Employee Information</h1>
+        <form id="farm-form" style="text-align: center;">
+            <label for="totalEmp">Số lượng nhân viên:</label><br>
+            <input type="number" id="totalEmp" required><br><br>
+            <button type="button" onclick="empInfo()">Add Employee</button> 
+            <button type="button" onclick="saveData()">Save</button>
+        </form>
+        <div id="emp-details"></div>
+    </div>
+    <br>
+    <script src="employee.js"></script>
+    <div style="text-align: center;">
+        <a href="trangchu.html" target="_blank"><button>Return</button></a>
+        </div>
+</body>
+</html>

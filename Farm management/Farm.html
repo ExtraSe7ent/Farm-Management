@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title>Quản lý trang trại </title>
+    <link rel="icon" type="image/x-icon" href="https://img.pikbest.com/png-images/qiantu/agriculture-icon-picture_2680086.png!f305cw">
+
+<!--Farm-->
+<body>
+    <script>
+        alert("Chào mừng bạn đến với web Quản lý trang trại của chúng tôi. Hãy nhập thông tin về trang trại(tên, diện tích, địa chỉ) để có thể vào phần tiếp theo")
+    </script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+    <h1 style="text-align: center;">Farm Information</h1>
+    <form id="farm-form" style="text-align: center;">
+        <label for="name">Tên Trang Trại: </label><br>
+        <input type="text" id="name" required><br>
+        <label for="dienTich" >Diện Tích(hecta):</label><br>
+        <input type="text" id="dienTich" required><br>
+        <label for="Address">Địa chỉ trang trại:</label><br>
+        <input type="text" id="Address" required><br>
+        <button type="button" onclick="displayFarm()">Hiển thị thông tin</button>
+        <button type="button" onclick="saveData()">Save</button>
+    </form> 
+    <div id="farm-form"></div>
+</div>
+<div style="text-align: center;">
+    <button type="submit" onclick="next()">Next</button>
+    <a href="Signup&Login.html" target="_blank"><button>Return</button></a>
+</div>
+<script src="farm.js"></script>
+</body>
+</html>
